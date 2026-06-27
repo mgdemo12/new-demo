@@ -1,0 +1,28 @@
+{
+  "name": "my-awesome-app",
+  "version": "1.0.0",
+  "description": "A robust Node.js application built with Express.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "backend",
+    "api"
+  ],
+  "author": "Jane Doe <jane.doe@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  }
+}
